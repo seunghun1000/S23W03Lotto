@@ -23,19 +23,24 @@
         android:layout_height="0dp"
         android:gravity="center"
         android:text="?"
+        android:textSize="70sp"
         android:background="#ffa"
+        android:padding="16dp"
         android:layout_margin="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/num2"
         app:layout_constraintTop_toBottomOf="@id/txtMessage"
-        app:layout_constraintBottom_toTopOf="@id/num3"/>
+        app:layout_constraintBottom_toTopOf="@id/num3"
+        />
     <TextView
         android:id="@+id/num2"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:gravity="center"
         android:text="?"
+        android:textSize="70sp"
         android:background="#ffa"
+        android:padding="16dp"
         android:layout_margin="16dp"
         app:layout_constraintStart_toEndOf="@id/num1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,9 +53,9 @@
         android:layout_height="0dp"
         android:gravity="center"
         android:text="?"
-
+        android:textSize="70sp"
         android:background="#ffa"
-
+        android:padding="16dp"
         android:layout_margin="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/num4"
@@ -63,9 +68,9 @@
         android:layout_height="0dp"
         android:gravity="center"
         android:text="?"
-
+        android:textSize="70sp"
         android:background="#ffa"
-
+        android:padding="16dp"
         android:layout_margin="16dp"
         app:layout_constraintStart_toEndOf="@id/num3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -78,9 +83,9 @@
         android:layout_height="0dp"
         android:gravity="center"
         android:text="?"
-
+        android:textSize="70sp"
         android:background="#ffa"
-
+        android:padding="16dp"
         android:layout_margin="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/num6"
@@ -93,9 +98,9 @@
         android:layout_height="0dp"
         android:gravity="center"
         android:text="?"
-
+        android:textSize="70sp"
         android:background="#ffa"
-
+        android:padding="16dp"
         android:layout_margin="16dp"
         app:layout_constraintStart_toEndOf="@id/num5"
         app:layout_constraintEnd_toEndOf="parent"
